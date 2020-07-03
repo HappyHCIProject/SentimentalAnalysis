@@ -70,4 +70,4 @@ api.add_resource(Plus, '/plus')
 CORS(app)
 
 if __name__ == '__main__':
-        app.run(host='ip', port=8000, debug=True)
+        app.run(host='server_ip', port=8000, debug=True)
